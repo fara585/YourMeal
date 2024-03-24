@@ -1,0 +1,821 @@
+@media print {
+    .print {
+        display: flex;
+    }
+
+    .wrapper {
+        display: none;
+    }
+}
+
+@media(max-width: 990px) {
+    .main__center-cards {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 970px) {
+
+    .main__center-cards {
+        gap: 19px;
+    }
+
+    .footer__content-left img {
+        width: 85%;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .nav__content {
+        column-gap: 0;
+    }
+
+    .main__block-check {
+        max-width: 300px;
+    }
+
+    .footer__content-left img {
+        width: 80%;
+    }
+}
+
+@media(max-width: 880px) {
+
+    .main__block-check {
+        max-width: 280px;
+    }
+
+    .checklist__product {
+        padding: 12px;
+    }
+
+    .main__menu2 {
+        justify-content: start;
+    }
+
+}
+
+@media(max-width: 855px) {
+
+    .main__block-check {
+        max-width: 270px;
+    }
+
+    .checklist__product {
+        padding: 13px;
+    }
+
+    .main__menu2 {
+        justify-content: start;
+    }
+
+    .main__center-cards {
+        gap: 25px;
+    }
+
+    .footer__content-left img {
+        width: 70%;
+    }
+
+    .checklist__product {
+        padding: 10px 3px;
+    }
+
+    .checklist__product-sub {
+        margin-left: 7px;
+    }
+
+    .order__link {
+        padding: 11px 70px;
+    }
+}
+
+@media(max-width: 830px) {
+    .footer__title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 766px) {
+    .footer__title {
+        font-size: 18px;
+    }
+
+    .footer__content-right {
+        width: 60%;
+    }
+
+
+}
+
+@media(max-width: 750px) {
+
+    .main__menu {
+        column-gap: 8px;
+    }
+
+    .main__menu button {
+        column-gap: 4px;
+        font-size: 13px;
+    }
+
+    .main__center-cards {
+        gap: 20px;
+    }
+
+    .footer__title {
+        font-size: 14px;
+    }
+
+    .main__center-block {
+        justify-content: space-around;
+    }
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 70px;
+    }
+
+    .footer__content-left img {
+        width: 70%;
+    }
+
+    .footer__icon-number {
+        font-size: 11px;
+        margin-left: 3px;
+    }
+
+    .order__link {
+        padding: 10px 65px;
+    }
+
+    .icon2__icon {
+        width: 33px;
+        height: 33px;
+        font-size: 1em;
+    }
+
+    .main__block-check {
+        max-width: 260px;
+    }
+
+    .checklist__product {
+        padding: 10px 3px;
+    }
+
+    .checklist__sub-name {
+        font-size: 14px;
+    }
+
+    .checklist__sub-name2 {
+        font-size: 13px;
+        padding: 3px 0 5px;
+    }
+
+    .checklist__product-sub {
+        margin-left: 7px;
+    }
+
+    .checklist__counter-symbol {
+        width: 20px;
+        height: 20px;
+    }
+
+    .checklist__counter-output {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media(max-width: 720px) {
+
+    .nav__content {
+        margin: 0 10px;
+    }
+
+    .title {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .main__center-title {
+        font-size: 37px;
+    }
+
+    .main__center {
+        padding: 30px 0 100px;
+    }
+
+    .main__block-check {
+        max-width: 300px;
+    }
+
+    .main__menu {
+        column-gap: 8px;
+        padding: 40px 0 30px;
+    }
+
+    .main__menu button {
+        column-gap: 4px;
+        padding: 5px 6px;
+        font-size: 13px;
+    }
+
+    .main__center-cards {
+        gap: 20px;
+    }
+
+    .footer__title {
+        font-size: 13px;
+    }
+
+    .main__center-block {
+        justify-content: center;
+        column-gap: 450px;
+    }
+
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 30px;
+    }
+
+    .footer__content-left img {
+        width: 60%;
+    }
+
+    .footer__icon-number {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+}
+
+@media(max-width: 680px) {
+
+    .main__menu2 {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .main__menu {
+        display: block;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .burger__block {
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 200px;
+        width: 100%;
+        height: 100%;
+        background-color: #FF5C00;
+        z-index: 100;
+        padding: 120px 20px;
+    }
+
+
+    .close-btn {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+        background: transparent;
+        color: white;
+    }
+
+    .main__menu a {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .main__menu button {
+        column-gap: 8px;
+        padding: 8px 10px;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+    .main__menu-btn {
+        background-color: transparent;
+    }
+
+    .nav__content {
+        margin: 0 10px;
+        column-gap: 0;
+    }
+
+    .title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .main__center-title {
+        font-size: 37px;
+    }
+
+    .main__center {
+        padding: 30px 0 100px;
+    }
+
+    .main__block-check {
+        max-width: 300px;
+    }
+
+    .main__center-cards {
+        gap: 20px;
+    }
+
+    .footer__content {
+        justify-content: space-between;
+    }
+
+    .footer__content-right {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__right-block {
+        align-items: end;
+        row-gap: 10px;
+    }
+
+    .footer__title {
+        font-size: 17px;
+    }
+
+    .footer__content-left img {
+        width: 65%;
+    }
+
+    .footer__icon-number {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+
+    .footer__block-icon2 {
+        column-gap: 12px;
+    }
+
+    .icon2__icon {
+        width: 30px;
+        height: 30px;
+        font-size: 1em;
+    }
+
+    .main__block-check {
+        max-width: 240px;
+    }
+
+    .checklist__product {
+        padding: 10px 2px;
+    }
+
+    .checklist__sub-name {
+        font-size: 13px;
+    }
+
+    .checklist__product-sub {
+        margin-left: 6px;
+    }
+
+    .checklist__counter-output {
+        font-size: 14px;
+    }
+
+    .order__link {
+        padding: 12px 45px;
+        font-size: 15px;
+    }
+
+    .check__bottom-text2 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 640px) {
+    .title {
+        font-size: 37px;
+    }
+}
+
+@media(max-width: 600px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .nav__burger {
+        width: 43%;
+    }
+}
+
+@media(max-width: 525px) {
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .nav__burger {
+        width: 43%;
+    }
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 0;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .nav__burger {
+        height: 204px;
+    }
+
+    .main__card-img {
+        width: 98%;
+        align-self: center;
+    }
+
+    .main__cards-card {
+        padding: 10px;
+        width: 280px;
+        height: 400px;
+    }
+
+    .main__card-cost {
+        font-size: 22px;
+    }
+
+    .main__card-name {
+        font-size: 14px;
+    }
+
+    .main__card-weight {
+        font-size: 16px;
+    }
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 0;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .subtitle span {
+        font-size: 17px;
+    }
+
+    .footer__content-left img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 470px) {
+
+    .nav__burger {
+        width: 45%;
+        height: 100%;
+    }
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 0;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .subtitle span {
+        font-size: 17px;
+    }
+
+
+    .footer__content-left img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 440px) {
+
+    .main__card-img {
+        width: 94%;
+        align-self: center;
+    }
+
+    .main__cards-card {
+        padding: 8px;
+        width: 250px;
+        height: 360px;
+    }
+
+    .main__card-cost {
+        font-size: 20px;
+    }
+
+    .main__card-name {
+        font-size: 13px;
+    }
+
+    .main__card-weight {
+        font-size: 14px;
+    }
+
+
+    .main__card-btn {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .main__block-check {
+        max-width: 220px;
+    }
+
+    .checklist__product {
+        padding: 10px 3px;
+    }
+
+    .checklist__sub-name {
+        font-size: 11px;
+    }
+
+    .checklist__sub-name2 {
+        font-size: 12px;
+        padding: 3px 0 5px;
+    }
+
+    .checklist__product-info>img {
+        width: 62px;
+    }
+
+    .checklist__product-sub {
+        margin-left: 3px;
+    }
+
+    .burger__block {
+        max-width: 170px;
+        padding: 80px 20px;
+    }
+
+    .close-btn {
+        font-size: 1.5rem;
+    }
+
+    .main__menu button {
+        column-gap: 5px;
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .nav__burger {
+        width: 45%;
+        height: 100%;
+    }
+
+    .footer__title {
+        font-size: 12px;
+        text-align: end;
+    }
+
+    .footer__content {
+        justify-content: center;
+        column-gap: 0;
+    }
+
+    .footer__icon-number {
+        font-size: 12px;
+        margin-left: 8px;
+        text-align: end;
+    }
+
+    .footer__block-icon {
+        justify-content: flex-end;
+        width: 110%;
+    }
+
+    .footer__right-block {
+        row-gap: 10px;
+    }
+}
+
+@media(max-width: 430px) {
+
+    .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .subtitle span {
+        font-size: 17px;
+    }
+
+    .footer__title {
+        font-size: 10px;
+    }
+
+    .footer__icon-number {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .footer__content-right {
+        width: 40%;
+    }
+}
+
+@media(max-width: 390px) {
+
+    .fa-phone-alt {
+        display: none;
+    }
+
+}
+
+@media(max-width: 400px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .main__center-title {
+        font-size: 30px;
+    }
+
+    .main__right-indecator {
+        width: 22px;
+        height: 22px;
+        font-size: 15px;
+    }
+
+    .main-card-count {
+        width: 27px;
+        height: 27px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 375px) {
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    .burger {
+        width: 30px;
+        height: 20px;
+    }
+
+    .burger__block {
+        max-width: 150px;
+        padding: 80px 15px;
+    }
+
+    .close-btn {
+        font-size: 1.3rem;
+    }
+
+    .main__menu button {
+        column-gap: 4px;
+        padding: 5px 7px;
+        font-size: 11px;
+    }
+
+    .main__block-check {
+        max-width: 200px;
+    }
+
+    .checklist__product {
+        padding: 8px 0;
+    }
+
+    .checklist__sub-name {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .checklist__sub-name2 {
+        font-size: 12px;
+        padding: 3px 0 5px;
+    }
+
+    .checklist__product-info>img {
+        width: 60px;
+    }
+
+    .checklist__product-sub {
+        margin-left: 3px;
+    }
+
+    .order__link {
+        padding: 10px 40px;
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .subtitle {
+        font-size: 11px;
+    }
+
+    .subtitle span {
+        font-size: 13px;
+    }
+
+    .footer__content-right {
+        width: 60%;
+    }
+
+    .footer__left-subtitle {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+}
+
+@media(max-width: 345px) {
+
+    .burger {
+        width: 28px;
+        height: 18px;
+    }
+
+    .burger__block {
+        max-width: 130px;
+        padding: 70px 12px;
+    }
+
+    .close-btn {
+        font-size: 1.2rem;
+    }
+
+    .main__menu button {
+        column-gap: 3px;
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+
+    .main__block-check {
+        max-width: 180px;
+    }
+
+    .checklist__sub-name {
+        font-size: 10px;
+    }
+
+    .checklist__sub-name2 {
+        font-size: 12px;
+        padding: 3px 0 5px;
+    }
+
+
+    .order__link {
+        padding: 8px 30px;
+        font-size: 11px;
+    }
+
+    .delivery__free {
+        column-gap: 7px;
+        padding: 13px 10px 22px;
+    }
+
+    .delivery__free-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
